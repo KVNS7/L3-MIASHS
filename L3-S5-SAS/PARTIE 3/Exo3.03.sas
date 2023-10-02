@@ -1,0 +1,3 @@
+PROC APPEND BASE = tab3 DATA = tab1;
+PROC PRINT DATA = tab3;
+RUN;

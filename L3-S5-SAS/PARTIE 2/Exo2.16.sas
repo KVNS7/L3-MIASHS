@@ -1,0 +1,6 @@
+PROC GCHART DATA = enfants;
+VBAR poids;
+RUN;
+
+PIE cheveux/DISCRETE VALUE = INSIDE SLICE = OUTSIDE;
+
