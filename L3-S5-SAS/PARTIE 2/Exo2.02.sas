@@ -1,4 +1,4 @@
-DATA tab;
+DATA tab ;
 INPUT pays $ @37 X Y;
 CARDS;
 Belgique "données à vérifier"       166 23

@@ -7,7 +7,8 @@ OUTPUT;
 t = t3;
 OUTPUT;
 CARDS;
-sta1 20 18 15.4
-sta2 17 15 9
+Sta1 20 18 15.4
+Sta2 17 15 9
 ;
-PROC PRINT;
+PROC PRINT DATA = meteo (KEEP = sta t);
+RUN;

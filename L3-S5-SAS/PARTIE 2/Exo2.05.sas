@@ -1,0 +1,7 @@
+DATA Tab;
+INPUT x y;
+CARDS;
+8 6
+;
+PROC PRINT;
+RUN;

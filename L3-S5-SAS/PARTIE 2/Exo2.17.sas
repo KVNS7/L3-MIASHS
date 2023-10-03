@@ -1,3 +1,5 @@
 PROC GPLOT DATA = enfants;
 PLOT poids*taille;
-RUN;
+
+PROC GPLOT DATA = enfants;
+PLOT taille*age;

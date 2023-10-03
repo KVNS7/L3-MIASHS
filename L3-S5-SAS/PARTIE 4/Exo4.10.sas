@@ -1,0 +1,4 @@
+DATA tab;
+a = PROBIT(0.98);
+PROC PRINT DATA = tab;
+RUN;

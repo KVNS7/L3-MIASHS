@@ -1,19 +1,20 @@
 DATA bruns;
 SET enfants;
 WHERE cheveux = 1;
-RUN;
+PROC PRINT DATA = bruns;
 
-DATA garcons;
+DATA Genre_M;
 SET enfants;
-WHERE genre = 'M';
-RUN;
+WHERE genre = "M";
+PROC PRINT DATA = Genre_M;
 
-DATA mini_1m60;
+DATA plus1m60;
 SET enfants;
 WHERE taille > 160;
-RUN;
+PROC PRINT DATA = plus1m60;
 
-DATA brun_max_1m50;
+DATA brunsMoins150;
 SET enfants;
-WHERE cheveux =1 AND taille < 150;
+WHERE cheveux = 1 AND taille < 150;
+PROC PRINT DATA = brunsMoins150;
 RUN;

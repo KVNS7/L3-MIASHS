@@ -1,0 +1,8 @@
+DATA tab;
+INFILE CARDS DLM = ",";
+INPUT x @@;
+CARDS;
+8,6,7
+9,12,3
+;
+PROC PRINT DATA = tab;

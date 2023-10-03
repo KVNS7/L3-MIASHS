@@ -1,4 +1,4 @@
-DATA tab;
+DATA Tab;
 INPUT x;
 CARDS;
 2 4 6

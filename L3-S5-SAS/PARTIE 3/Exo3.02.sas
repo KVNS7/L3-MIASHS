@@ -1,3 +1,8 @@
-DATA tab4;
-SET tab1 tab2;
+DATA Tab4;
+SET Tab1 Tab2;
+PROC PRINT;
+
+DATA Tab5;
+SET Tab1 Tab2 Tab3;
+PROC PRINT;
 RUN;

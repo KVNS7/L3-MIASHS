@@ -1,6 +1,10 @@
 PROC GCHART DATA = enfants;
-VBAR poids;
-RUN;
+PIE cheveux / DISCRETE VALUE = INSIDE SLICE = OUTSIDE;
 
-PIE cheveux/DISCRETE VALUE = INSIDE SLICE = OUTSIDE;
+
+PROC SORT DATA = enfants;
+BY genre;
+PROC GCHART DATA = enfants;
+VBAR poids;
+BY genre;
 

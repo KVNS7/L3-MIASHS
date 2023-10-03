@@ -1,0 +1,11 @@
+DATA tab;
+a = PROBNORM(1.02);
+PROC PRINT DATA = tab;
+
+DATA tab;
+DO i = 4 TO 6 BY 0.025;
+	a = PROBNORM(i);
+	OUTPUT;
+END;
+PROC PRINT DATA = tab;
+RUN;

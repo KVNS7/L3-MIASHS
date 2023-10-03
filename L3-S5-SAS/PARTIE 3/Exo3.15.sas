@@ -1,8 +1,7 @@
 DATA Tab;
-x = 3;
+x=3;
 PROC PRINT;
 DATA Tab;
 SET Tab;
-RENAME x = y;
+RENAME x=y;
 PROC PRINT;
-RUN;

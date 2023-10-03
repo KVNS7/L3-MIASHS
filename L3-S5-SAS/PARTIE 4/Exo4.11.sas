@@ -1,0 +1,10 @@
+DATA tab;
+DO i = 1 TO 30;
+	a = RANUNI(2);
+	OUTPUT;
+END;
+PROC PRINT DATA = tab;
+RUN;
+
+PROC GCHART DATA = tab;
+VBAR a;

@@ -1,0 +1,5 @@
+DATA tab;
+INFILE "/home/u63575294/Exo/PARTIE 5/essai.txt" DLM = ";" FIRSTOBS = 2;
+INPUT X Y Z;
+PROC PRINT DATA = tab;
+RUN;

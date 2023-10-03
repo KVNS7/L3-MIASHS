@@ -1,0 +1,10 @@
+DATA tab;
+DO i = 1 TO 50;
+	a = RANNOR(5);
+	OUTPUT;
+END;
+PROC PRINT DATA = tab;
+RUN;
+
+PROC GCHART DATA = tab;
+HBAR a;
