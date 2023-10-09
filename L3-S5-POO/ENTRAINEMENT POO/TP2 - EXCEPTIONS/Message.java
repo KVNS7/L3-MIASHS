@@ -21,7 +21,7 @@ public class Message {
 
     public static void main(String[] args) {
         Message m = new Message();
-        m.contient("toto");
+        System.out.println(m.contient("toto"));
     }
 
 }

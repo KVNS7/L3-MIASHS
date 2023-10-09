@@ -8,4 +8,6 @@ public class Sabre extends Arme{
         this.couleur = couleur;
     }
     
+    public Color getCouleur(){return couleur;}
+    
 }
