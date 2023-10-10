@@ -1,0 +1,10 @@
+OPTION YEARCUTOFF = 1750;
+
+DATA tab;
+INPUT x :date7.;
+CARDS;
+8jan26
+;
+PROC PRINT DATA = tab;
+FORMAT x date9.;
+RUN;

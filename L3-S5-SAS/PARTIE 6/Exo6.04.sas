@@ -1,0 +1,7 @@
+DATA tab;
+INPUT date :DDMMYY8. @@;
+CARDS;
+01/12/25 13/8/3 31/3/88 24/11/73
+;
+PROC PRINT DATA = tab;
+FORMAT date DDMMYY10.;

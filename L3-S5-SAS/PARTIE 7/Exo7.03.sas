@@ -1,0 +1,10 @@
+DATA tab;
+INFILE CARDS TRUNCOVER;
+INPUT x $ 1-90;
+CARDS;
+pp
+jj
+ii
+mm
+;
+PROC PRINT DATA = tab;

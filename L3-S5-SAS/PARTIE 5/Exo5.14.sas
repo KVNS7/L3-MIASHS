@@ -1,0 +1,7 @@
+DATA form;
+INPUT x @@;
+FORMAT x 7.2;
+CARDS;
+8 2.3 9.2 32 456 2 8
+;
+PROC PRINT DATA = form;

@@ -1,0 +1,7 @@
+MISSING A P;
+DATA tab;
+INPUT x @@;
+CARDS;
+3 A P C -8
+;
+PROC PRINT DATA = tab;
