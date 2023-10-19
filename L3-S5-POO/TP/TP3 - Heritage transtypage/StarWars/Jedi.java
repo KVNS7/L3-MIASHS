@@ -11,7 +11,7 @@ public class Jedi extends Personnage{
     void parler(){System.out.println("Que la force soit avec vous");};
 
     void coupSabre(Personnage p){
-        if(this.sabre.getAllume() == true){
+        if(this.sabre.getAllume()){
             p.seBlesse(this.sabre, this);
         }else{
             System.out.println("Sabre éteint !");
@@ -20,6 +20,10 @@ public class Jedi extends Personnage{
 
     public void allumerSabre(){
         sabre.allumer();
+    }
+
+    pbulci void eteindreSabre(){
+        sabre.eteindre();
     }
 
 }

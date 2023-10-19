@@ -1,16 +1,14 @@
 public class Personnage {
     private String nom;
     private int vie;
-    private int x;
-    private int y;
+    private int x = 0;
+    private int y = 0;
     private int vitesse;
     private int force;
 
     Personnage(String nom, int vie, int x, int y, int vitesse, int force){
         this.nom = nom;
         this.vie = vie;
-        this.x = x;
-        this.y = y;
         this.vitesse = vitesse;
         this.force = force;
     }
@@ -25,7 +23,10 @@ public class Personnage {
         this.force = force;
     }
 
-    public void seDeplace(){};
+    public void seDeplace(int dx, int dy, int dt){
+        x += (int) dx * dt * vitesse / Math.sqrt(dx*dx + dy*dy);
+        y += (int) dy * dt * vitesse / Math.sqrt(dx*dx + dy*dy);
+    };
 
     public void seBlesse(Arme a, Personnage p){
         vie -= a.getPui() * p.getForce();
@@ -40,4 +41,10 @@ public class Personnage {
     public String getNom(){return nom;};
 
     public int getVie(){return vie;};
+
+    public int getVitesse(){return vitesse;};
+
+    public int getX(){return x;};
+
+    public int getY(){return y;};
 }

@@ -1,9 +1,8 @@
 public class Arme {
-    private boolean allume;
+    private boolean allume = false;
     private int puissance;
 
-    Arme(int pui){
-        this.allume = false;
+    public Arme(int pui){
         this.puissance = pui;
     }
 
