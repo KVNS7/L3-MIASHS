@@ -5,6 +5,7 @@ public class main {
     
     public static void main(String[] args){
 
+        /* TEST POUR LISTECLONE 
         List<SoldatClone> ListeClone = SoldatClone.genererListeClone(1000); // crée liste de 1000 SoldatClone
 
         System.out.println(ListeClone); // Affiche la liste
@@ -21,6 +22,16 @@ public class main {
         for (SoldatClone S : ListeClone) { // Affiche la liste
             System.out.println(S);
         }
+        */
+
+        /* TEST POUR LISTE JEDI
+        */
+        List<Jedi> ListeJedi = Jedi.genererListeJedi(50);
+
+        System.out.println("Liste de base :\n\n\n" + ListeJedi);
+        
+
+        System.out.println("Liste triée :\n\n\n" + Jedi.trier(ListeJedi));
 
     } 
 

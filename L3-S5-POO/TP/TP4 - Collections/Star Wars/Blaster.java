@@ -4,4 +4,8 @@ public class Blaster extends Arme{
         super(5);
     }
     
+    @Override
+    public String toString(){
+        return "Blaster " + super.toString();
+    }
 }

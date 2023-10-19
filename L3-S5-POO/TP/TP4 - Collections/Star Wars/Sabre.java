@@ -9,5 +9,10 @@ public class Sabre extends Arme{
     }
     
     public Color getCouleur(){return couleur;}
+
+    @Override
+    public String toString(){
+        return "Sabre de couleur " + getCouleur() + "et " + super.toString();
+    }
     
 }

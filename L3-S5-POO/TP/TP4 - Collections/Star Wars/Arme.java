@@ -14,4 +14,9 @@ public class Arme {
 
     public boolean getAllume(){return allume;};
 
+    @Override
+    public String toString(){
+        return " de puissance " + getPui();
+    }
+
 }

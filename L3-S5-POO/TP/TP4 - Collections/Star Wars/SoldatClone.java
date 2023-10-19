@@ -27,8 +27,6 @@ public class SoldatClone extends Personnage{
         blaster.eteindre();
     }
 
-
-
     public static List<SoldatClone> genererListeClone(int n){
         ArrayList<SoldatClone> Liste = new ArrayList<SoldatClone>();
 
