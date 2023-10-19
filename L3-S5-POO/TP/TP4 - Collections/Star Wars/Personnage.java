@@ -46,8 +46,8 @@ public class Personnage {
 
     @Override
     public String toString() {
-        return "Vie : " + vie + "\n" +
-               "Vitesse : " + vitesse + "\n" +
-               "Force : " + force + "\n";
+        return "Vie: " + vie + "\n" +
+               "Vitesse: " + vitesse + "\n" +
+               "Force: " + force + "\n";
     }
 }

@@ -3,8 +3,8 @@ import java.awt.Color;
 public class Jedi extends Personnage{
     private Sabre sabre;
 
-    Jedi(String nom, int vie, int x, int y, int force, Color couleur){
-        super(nom, vie, x, y, 5, force);
+    Jedi(String nom, int vie, int force, Color couleur){
+        super(nom, vie, 5, force);
         this.sabre = new Sabre(couleur);
     }
 
