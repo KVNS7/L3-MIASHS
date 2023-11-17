@@ -14,7 +14,7 @@ public class ChefdOeuvre extends Oeuvre{
     }
 
     ChefdOeuvre(String titre, String auteur, int nb_pages, String editeur){
-        super(titre, auteur, nb_pages, editeur);
+        super(titre, auteur, nb_pages, editeur); 
         this.like();
     }
 
