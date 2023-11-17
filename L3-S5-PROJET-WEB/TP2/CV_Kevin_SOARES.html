@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kevin SOARES">
+    <title>CV Kevin SOARES</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://communication.parisnanterre.fr/medias/photo/logo-paris-nanterre-couleur-cmjn_1484748809853-png" alt="Logo_UPN" width="200px">
+        <h1>Kevin SOARES</h1>
+        <h2>Étudiant en Mathématiques / Informatique</h2>
+    </header>
+
+    <hr>
+
+    <div class="container">
+        <div class="div">
+            <h3><u>Profil</u></h3>
+            <ul>
+                <li>🏠 : <a href="https://www.google.com/maps/place/93320+Les+Pavillons-sous-Bois/@48.9070112,2.488234,14z/data=!3m1!4b1!4m6!3m5!1s0x47e61309c20e4937:0x40b82c3688b3b00!8m2!3d48.9092393!4d2.5032934!16zL20vMDk3XzFo" target="_blank">Les Pavillons-<br>sous-Bois, 93320</a></li>
+                <li>📧 : <a href="mailto:ksoares@outlook.fr">ksoares@outlook.fr</a></li>
+                <li>📞 : 06 52 48 12 20</li>
+                <li>🎂 : 07 / 08 / 2003</li>
+                <li>🚗 : Permis B</li>
+            </ul>
+        </div>
+
+        <div class="div">
+            <h3><u>Qualités / Compétences</u></h3>
+            <ul>
+                <li>Rigueur</li>
+                <li>A l'écoute des conseils et des remarques</li>
+            </ul>
+            <h4>Programmation :</h4>
+            <ul id="programmation">
+                <li>Langage C : 30%</li>
+                <li>SQL : 50%</li>
+                <li>HTML : 20%</li>
+                <li>CSS : 10%</li>
+            </ul>
+        </div>
+        
+        <div class="div">
+            <h3><u>Langues</u></h3>
+            <ul id="langues">
+                <li>Anglais : niveau B2</li>
+                <li>Portugais : niveau B2</li>
+                <li>Espagnol : niveau B2</li>
+            </ul>
+        </div>
+
+        <div class="div">
+            <h3><u>Experience professionnelle</u></h3>
+            <h4>BSI Concept</h4>
+            <h5>MAI - JUILLET 2021 / 2022 / 2023</h5>
+            <ul class="liste-BSI">
+                <Li>Assistanat projet d'architecture sur logiciel Archicad</Li>
+                <Li>Assistanat tirage de câble réseau</Li>
+                <Li>Montage d'appareillage électrique</Li>
+            </ul>
+        </div>
+        
+        <div class="div">
+            <h3><u>Parcours scolaire</u></h3>
+            <ul id="scolaire">
+                <li><strong>Septembre 2021 à Septembre 2024 :</strong> <a href="https://formations.parisnanterre.fr/fr/catalogue-des-formations/licence-lmd-03/mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs-licence-JWQCK5R4.html" target="_blank">Licence MIAGE</a> - Université Paris X Nanterre</li>
+                <li><strong>Juin 2021 :</strong> Baccalauréat général Spécialités Mathématiques / SES / SVT - Mention Bien - (Lycée Jean Renoir, Bondy)</li>
+                <li><strong>Juin 2018 :</strong> Diplôme National du Brevet des collèges, mention (Collège Anatole France, Les Pavillons-Sous-Bois)</li>
+            </ul>
+        </div>
+    
+        <div class="div">
+            <h3><u>Motivations</u></h3>
+            <p id="motivations">Dans le cadre de mon parcours universitaire MIAGE, je suis à la recherche d'un contrat en alternance pour 3 ans, afin d'y acquérir une expérience professionnelle et de confronter mes connaissances théoriques aux réalités du terrain</p>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+<style>
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: whitesmoke;
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+    }
+
+    header {
+        text-align: center;
+        background-color: #007acc;
+        color: white;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        color: #007acc;
+        font-size: 30px;
+    }
+
+    h4{
+        font-weight: normal;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    hr {
+        border: 1px solid #007acc;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .div {
+        background-color: white;
+        padding: 20px;
+        border-radius: 2%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+        
+    }
+
+    #programmation, #scolaire{
+        list-style-type: circle;
+        margin-left: 7%;
+    }
+
+    #motivations, #langues{
+        margin-top: 10%;
+    }
+
+    
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 2%;
+    }
+
+    a {
+        text-decoration: none;
+        color: #007acc;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .liste-BSI {
+        margin-left: 7%;
+    }
+
+    p {
+        text-align: justify;
+    }
+    
+</style>

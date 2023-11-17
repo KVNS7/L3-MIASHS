@@ -1,0 +1,56 @@
+body{
+    background-color: orange;
+    color : blue;
+    word-spacing: 5px;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+    opacity: 50%;
+}
+
+h1, h2, h3, h4{
+    color : black;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color : yellow;
+}
+
+a:active{
+    color:red;
+}
+
+p::first-letter{
+    color: blue;
+}
+
+p::after{
+    content : ".";
+}
+
+p:first-of-type{
+    font-weight: normal;
+}
+
+p:nth-of-type(2){
+    font-weight: bold;
+}
+
+table{
+    border : 3px solid blue;
+}
+
+table td{
+    text-align: center;
+    padding: 5% 3%;
+}
