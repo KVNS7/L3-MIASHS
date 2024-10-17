@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="title_activity_add">add</string>
+    <string name="rechrecher_un_contact">Rechrecher un contact</string>
+    <string name="ajouter_un_contact">Ajouter un contact</string>
+    <string name="rechercher">Rechercher :</string>
+    <string name="chercher">Afficher</string>
+    <string name="n_de_tel">N° de Tel :</string>
+    <string name="nom">Nom :</string>
+    <string name="pr_nom">Prénom :</string>
+    <string name="valider">Valider</string>
+</resources>
